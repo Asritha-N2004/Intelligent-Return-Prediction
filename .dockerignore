@@ -1,0 +1,17 @@
+.git
+.venv
+frontend/node_modules
+frontend/.next
+frontend/.next-verify
+frontend/.pnpm-store
+.test-runtime
+.vercel
+deployment
+*.db
+.env
+.env.*
+!.env.example
+__pycache__
+.pytest_cache
+
+.deployment-tools

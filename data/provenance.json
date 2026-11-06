@@ -1,0 +1,7 @@
+{
+  "source": "SYNTHETIC \u2014 not collected customer data",
+  "seed": 42,
+  "unique_records": 12000,
+  "raw_records": 12100,
+  "injected_duplicate_rows": 100
+}

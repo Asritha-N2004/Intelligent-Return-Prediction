@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "frontend": {
+      "root": "frontend",
+      "framework": "nextjs",
+      "installCommand": "npx --yes pnpm@11.25.0 install --frozen-lockfile",
+      "buildCommand": "pnpm run build"
+    },
+    "backend": {
+      "root": ".",
+      "runtime": "container",
+      "entrypoint": "Dockerfile.vercel"
+    }
+  },
+  "rewrites": [
+    {"source": "/api/(.*)", "destination": {"service": "backend"}},
+    {"source": "/reports/(.*)", "destination": {"service": "backend"}},
+    {"source": "/(.*)", "destination": {"service": "frontend"}}
+  ]
+}

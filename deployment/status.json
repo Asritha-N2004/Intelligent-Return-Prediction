@@ -1,0 +1,16 @@
+{
+  "url": "https://returnwise-ai-zeta.vercel.app",
+  "deployment_id": "dpl_GWMQGeEmqLjhDgbTEJDtR1Ds68Gs",
+  "project_id": "prj_IOGHHiC985xsEcVYWNNk4CE2z4Ud",
+  "team": "resum-projects",
+  "status": "READY",
+  "target": "production",
+  "build_duration_seconds": 202,
+  "verification_date": "2026-11-06",
+  "backend_tests_passed": 51,
+  "public_login_verified": true,
+  "public_health_verified": true,
+  "runtime_error_records": 0,
+  "registration_verified": true,
+  "signup_url": "https://returnwise-ai-zeta.vercel.app/create-account"
+}

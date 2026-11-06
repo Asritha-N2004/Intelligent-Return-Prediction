@@ -1,0 +1,421 @@
+{
+  "data_source": "SYNTHETIC",
+  "rows": 12000,
+  "raw_rows": 12100,
+  "duplicates": 100,
+  "missing_values": {
+    "order_id": 0,
+    "customer_id": 0,
+    "product_id": 0,
+    "product_category": 0,
+    "product_price": 0,
+    "quantity": 0,
+    "order_date": 0,
+    "delivery_date": 0,
+    "payment_method": 0,
+    "customer_location": 0,
+    "product_rating": 181,
+    "product_review_score": 0,
+    "discount_percentage": 180,
+    "previous_orders": 0,
+    "previous_returns": 0,
+    "customer_return_rate": 0,
+    "delivery_delay": 0,
+    "product_condition": 0,
+    "return_reason": 9403,
+    "return_requested": 0,
+    "return_date": 9403,
+    "refund_amount": 0,
+    "shipping_cost": 0,
+    "warehouse_id": 0,
+    "return_processing_time": 0,
+    "product_resale_value": 0
+  },
+  "return_rate": 0.223,
+  "groups": {
+    "product_category": [
+      {
+        "product_category": "Apparel",
+        "count": 2043,
+        "sum": 581,
+        "mean": 0.2843857073
+      },
+      {
+        "product_category": "Beauty",
+        "count": 2038,
+        "sum": 395,
+        "mean": 0.1938174681
+      },
+      {
+        "product_category": "Electronics",
+        "count": 2105,
+        "sum": 393,
+        "mean": 0.1866983373
+      },
+      {
+        "product_category": "Footwear",
+        "count": 1915,
+        "sum": 600,
+        "mean": 0.3133159269
+      },
+      {
+        "product_category": "Home",
+        "count": 2374,
+        "sum": 469,
+        "mean": 0.197556866
+      },
+      {
+        "product_category": "Sports",
+        "count": 1525,
+        "sum": 238,
+        "mean": 0.1560655738
+      }
+    ],
+    "customer_segment": [
+      {
+        "customer_segment": "Low historical returns",
+        "count": 5736,
+        "sum": 1000,
+        "mean": 0.1743375174
+      },
+      {
+        "customer_segment": "Moderate historical returns",
+        "count": 4868,
+        "sum": 1154,
+        "mean": 0.2370583402
+      },
+      {
+        "customer_segment": "Frequent historical returns",
+        "count": 1396,
+        "sum": 522,
+        "mean": 0.3739255014
+      }
+    ],
+    "payment_method": [
+      {
+        "payment_method": "Card",
+        "count": 4041,
+        "sum": 920,
+        "mean": 0.2276664192
+      },
+      {
+        "payment_method": "Cash on delivery",
+        "count": 3943,
+        "sum": 872,
+        "mean": 0.2211514076
+      },
+      {
+        "payment_method": "UPI",
+        "count": 4016,
+        "sum": 884,
+        "mean": 0.2201195219
+      }
+    ],
+    "customer_location": [
+      {
+        "customer_location": "Bengaluru",
+        "count": 2145,
+        "sum": 479,
+        "mean": 0.2233100233
+      },
+      {
+        "customer_location": "Chennai",
+        "count": 1995,
+        "sum": 464,
+        "mean": 0.2325814536
+      },
+      {
+        "customer_location": "Delhi",
+        "count": 2041,
+        "sum": 450,
+        "mean": 0.2204801568
+      },
+      {
+        "customer_location": "Hyderabad",
+        "count": 2034,
+        "sum": 464,
+        "mean": 0.2281219272
+      },
+      {
+        "customer_location": "Kolkata",
+        "count": 1756,
+        "sum": 388,
+        "mean": 0.2209567198
+      },
+      {
+        "customer_location": "Mumbai",
+        "count": 2029,
+        "sum": 431,
+        "mean": 0.2124199113
+      }
+    ],
+    "return_reason": [
+      {
+        "return_reason": "Changed mind",
+        "count": 548,
+        "sum": 548,
+        "mean": 1.0
+      },
+      {
+        "return_reason": "Damaged item",
+        "count": 512,
+        "sum": 512,
+        "mean": 1.0
+      },
+      {
+        "return_reason": "Late delivery",
+        "count": 545,
+        "sum": 545,
+        "mean": 1.0
+      },
+      {
+        "return_reason": "None",
+        "count": 9324,
+        "sum": 0,
+        "mean": 0.0
+      },
+      {
+        "return_reason": "Not as described",
+        "count": 545,
+        "sum": 545,
+        "mean": 1.0
+      },
+      {
+        "return_reason": "Size or fit",
+        "count": 526,
+        "sum": 526,
+        "mean": 1.0
+      }
+    ],
+    "product_rating": [
+      {
+        "product_rating": 2.2,
+        "count": 135,
+        "sum": 49,
+        "mean": 0.362962963
+      },
+      {
+        "product_rating": 2.3,
+        "count": 417,
+        "sum": 135,
+        "mean": 0.3237410072
+      },
+      {
+        "product_rating": 2.4,
+        "count": 541,
+        "sum": 168,
+        "mean": 0.3105360444
+      },
+      {
+        "product_rating": 2.5,
+        "count": 258,
+        "sum": 69,
+        "mean": 0.2674418605
+      },
+      {
+        "product_rating": 2.6,
+        "count": 400,
+        "sum": 123,
+        "mean": 0.3075
+      },
+      {
+        "product_rating": 2.7,
+        "count": 390,
+        "sum": 122,
+        "mean": 0.3128205128
+      },
+      {
+        "product_rating": 2.8,
+        "count": 409,
+        "sum": 120,
+        "mean": 0.293398533
+      },
+      {
+        "product_rating": 2.9,
+        "count": 537,
+        "sum": 130,
+        "mean": 0.2420856611
+      },
+      {
+        "product_rating": 3.0,
+        "count": 258,
+        "sum": 86,
+        "mean": 0.3333333333
+      },
+      {
+        "product_rating": 3.1,
+        "count": 405,
+        "sum": 112,
+        "mean": 0.2765432099
+      },
+      {
+        "product_rating": 3.2,
+        "count": 344,
+        "sum": 90,
+        "mean": 0.261627907
+      },
+      {
+        "product_rating": 3.3,
+        "count": 300,
+        "sum": 85,
+        "mean": 0.2833333333
+      },
+      {
+        "product_rating": 3.4,
+        "count": 432,
+        "sum": 116,
+        "mean": 0.2685185185
+      },
+      {
+        "product_rating": 3.5,
+        "count": 326,
+        "sum": 66,
+        "mean": 0.2024539877
+      },
+      {
+        "product_rating": 3.6,
+        "count": 268,
+        "sum": 64,
+        "mean": 0.2388059701
+      },
+      {
+        "product_rating": 3.7,
+        "count": 612,
+        "sum": 130,
+        "mean": 0.2124183007
+      },
+      {
+        "product_rating": 3.8,
+        "count": 463,
+        "sum": 88,
+        "mean": 0.1900647948
+      },
+      {
+        "product_rating": 3.9,
+        "count": 644,
+        "sum": 140,
+        "mean": 0.2173913043
+      },
+      {
+        "product_rating": 4.0,
+        "count": 415,
+        "sum": 71,
+        "mean": 0.1710843373
+      },
+      {
+        "product_rating": 4.1,
+        "count": 422,
+        "sum": 72,
+        "mean": 0.1706161137
+      },
+      {
+        "product_rating": 4.2,
+        "count": 549,
+        "sum": 97,
+        "mean": 0.1766848816
+      },
+      {
+        "product_rating": 4.3,
+        "count": 373,
+        "sum": 62,
+        "mean": 0.1662198391
+      },
+      {
+        "product_rating": 4.4,
+        "count": 503,
+        "sum": 88,
+        "mean": 0.1749502982
+      },
+      {
+        "product_rating": 4.5,
+        "count": 399,
+        "sum": 69,
+        "mean": 0.1729323308
+      },
+      {
+        "product_rating": 4.6,
+        "count": 363,
+        "sum": 49,
+        "mean": 0.1349862259
+      },
+      {
+        "product_rating": 4.7,
+        "count": 372,
+        "sum": 53,
+        "mean": 0.1424731183
+      },
+      {
+        "product_rating": 4.8,
+        "count": 672,
+        "sum": 103,
+        "mean": 0.1532738095
+      },
+      {
+        "product_rating": 4.9,
+        "count": 407,
+        "sum": 62,
+        "mean": 0.1523341523
+      },
+      {
+        "product_rating": 5.0,
+        "count": 206,
+        "sum": 24,
+        "mean": 0.1165048544
+      }
+    ],
+    "delivery_delay": [
+      {
+        "delivery_delay": 0,
+        "count": 7429,
+        "sum": 1400,
+        "mean": 0.1884506663
+      },
+      {
+        "delivery_delay": 1,
+        "count": 1745,
+        "sum": 369,
+        "mean": 0.2114613181
+      },
+      {
+        "delivery_delay": 2,
+        "count": 1261,
+        "sum": 337,
+        "mean": 0.2672482157
+      },
+      {
+        "delivery_delay": 3,
+        "count": 856,
+        "sum": 245,
+        "mean": 0.2862149533
+      },
+      {
+        "delivery_delay": 5,
+        "count": 471,
+        "sum": 191,
+        "mean": 0.4055201699
+      },
+      {
+        "delivery_delay": 8,
+        "count": 238,
+        "sum": 134,
+        "mean": 0.5630252101
+      }
+    ]
+  },
+  "outliers_iqr": {
+    "product_price": 848,
+    "quantity": 2436,
+    "product_rating": 0,
+    "product_review_score": 0,
+    "discount_percentage": 0,
+    "previous_orders": 0,
+    "previous_returns": 309,
+    "customer_return_rate": 267,
+    "delivery_delay": 1565,
+    "return_requested": 2676,
+    "refund_amount": 2676,
+    "shipping_cost": 0,
+    "return_processing_time": 2676,
+    "product_resale_value": 2676
+  }
+}
